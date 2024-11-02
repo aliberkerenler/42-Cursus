@@ -14,14 +14,14 @@
 
 char	*ft_strrchr(const char *str, int c)
 {
-	const char	*last_occurrence;
+	const char	*last_spot;
 
-	last_occurrence = NULL;
+	last_spot = NULL;
 	while (*str != '\0')
 	{
 		if (*str == (char)c)
 		{
-			last_occurrence = str;
+			last_spot = str;
 		}
 		str++;
 	}
@@ -29,5 +29,5 @@ char	*ft_strrchr(const char *str, int c)
 	{
 		return ((char *)str);
 	}
-	return ((char *)last_occurrence);
+	return ((char *)last_spot);
 }
