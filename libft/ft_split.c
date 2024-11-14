@@ -6,7 +6,7 @@
 /*   By: aerenler <aerenler@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/10/20 14:08:46 by aerenler          #+#    #+#             */
-/*   Updated: 2024/11/09 16:44:44 by aerenler         ###   ########.fr       */
+/*   Updated: 2024/11/14 19:06:24 by aerenler         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -60,7 +60,7 @@ void	*free_result(char **result, int index)
 {
 	if (!result[index])
 	{
-		while (index > 0)
+		while (index >= 0)
 		{
 			free(result[index]);
 			index--;
