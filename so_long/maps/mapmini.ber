@@ -1,0 +1,198 @@
+==3678995== Invalid read of size 8
+==3678995==    at 0x4042E2: mlx_loop (in /home/aerenler/Desktop/so_long/so_long)
+==3678995==    by 0x403C83: main (so_long.c:28)
+==3678995==  Address 0x4c731f8 is 872 bytes inside a block of size 936 free'd
+==3678995==    at 0x484B27F: free (in /usr/libexec/valgrind/vgpreload_memcheck-amd64-linux.so)
+==3678995==    by 0x405549: mlx_destroy_window (in /home/aerenler/Desktop/so_long/so_long)
+==3678995==    by 0x402EAF: cleanup (game_render.c:63)
+==3678995==    by 0x404321: mlx_loop (in /home/aerenler/Desktop/so_long/so_long)
+==3678995==    by 0x403C83: main (so_long.c:28)
+==3678995==  Block was alloc'd at
+==3678995==    at 0x4848899: malloc (in /usr/libexec/valgrind/vgpreload_memcheck-amd64-linux.so)
+==3678995==    by 0x404090: mlx_new_window (in /home/aerenler/Desktop/so_long/so_long)
+==3678995==    by 0x403076: init_game (game_utils.c:29)
+==3678995==    by 0x403C5F: main (so_long.c:24)
+==3678995== 
+==3678995== Invalid read of size 4
+==3678995==    at 0x404274: mlx_loop (in /home/aerenler/Desktop/so_long/so_long)
+==3678995==    by 0x403C83: main (so_long.c:28)
+==3678995==  Address 0x4c58c90 is 128 bytes inside a block of size 136 free'd
+==3678995==    at 0x484B27F: free (in /usr/libexec/valgrind/vgpreload_memcheck-amd64-linux.so)
+==3678995==    by 0x402F76: cleanup (game_render.c:75)
+==3678995==    by 0x404321: mlx_loop (in /home/aerenler/Desktop/so_long/so_long)
+==3678995==    by 0x403C83: main (so_long.c:28)
+==3678995==  Block was alloc'd at
+==3678995==    at 0x4848899: malloc (in /usr/libexec/valgrind/vgpreload_memcheck-amd64-linux.so)
+==3678995==    by 0x403EDF: mlx_init (in /home/aerenler/Desktop/so_long/so_long)
+==3678995==    by 0x403042: init_game (game_utils.c:28)
+==3678995==    by 0x403C5F: main (so_long.c:24)
+==3678995== 
+==3678995== Invalid read of size 8
+==3678995==    at 0x404220: mlx_loop (in /home/aerenler/Desktop/so_long/so_long)
+==3678995==    by 0x403C83: main (so_long.c:28)
+==3678995==  Address 0x4c58c48 is 56 bytes inside a block of size 136 free'd
+==3678995==    at 0x484B27F: free (in /usr/libexec/valgrind/vgpreload_memcheck-amd64-linux.so)
+==3678995==    by 0x402F76: cleanup (game_render.c:75)
+==3678995==    by 0x404321: mlx_loop (in /home/aerenler/Desktop/so_long/so_long)
+==3678995==    by 0x403C83: main (so_long.c:28)
+==3678995==  Block was alloc'd at
+==3678995==    at 0x4848899: malloc (in /usr/libexec/valgrind/vgpreload_memcheck-amd64-linux.so)
+==3678995==    by 0x403EDF: mlx_init (in /home/aerenler/Desktop/so_long/so_long)
+==3678995==    by 0x403042: init_game (game_utils.c:28)
+==3678995==    by 0x403C5F: main (so_long.c:24)
+==3678995== 
+==3678995== Invalid read of size 8
+==3678995==    at 0x404233: mlx_loop (in /home/aerenler/Desktop/so_long/so_long)
+==3678995==    by 0x403C83: main (so_long.c:28)
+==3678995==  Address 0x4c58c10 is 0 bytes inside a block of size 136 free'd
+==3678995==    at 0x484B27F: free (in /usr/libexec/valgrind/vgpreload_memcheck-amd64-linux.so)
+==3678995==    by 0x402F76: cleanup (game_render.c:75)
+==3678995==    by 0x404321: mlx_loop (in /home/aerenler/Desktop/so_long/so_long)
+==3678995==    by 0x403C83: main (so_long.c:28)
+==3678995==  Block was alloc'd at
+==3678995==    at 0x4848899: malloc (in /usr/libexec/valgrind/vgpreload_memcheck-amd64-linux.so)
+==3678995==    by 0x403EDF: mlx_init (in /home/aerenler/Desktop/so_long/so_long)
+==3678995==    by 0x403042: init_game (game_utils.c:28)
+==3678995==    by 0x403C5F: main (so_long.c:24)
+==3678995== 
+==3678995== Invalid read of size 8
+==3678995==    at 0x48B4EC1: XNextEvent (in /usr/lib/x86_64-linux-gnu/libX11.so.6.4.0)
+==3678995==    by 0x404242: mlx_loop (in /home/aerenler/Desktop/so_long/so_long)
+==3678995==    by 0x403C83: main (so_long.c:28)
+==3678995==  Address 0x4c59648 is 2,408 bytes inside a block of size 4,704 free'd
+==3678995==    at 0x484B27F: free (in /usr/libexec/valgrind/vgpreload_memcheck-amd64-linux.so)
+==3678995==    by 0x48A78C0: XCloseDisplay (in /usr/lib/x86_64-linux-gnu/libX11.so.6.4.0)
+==3678995==    by 0x402F6A: cleanup (game_render.c:74)
+==3678995==    by 0x404321: mlx_loop (in /home/aerenler/Desktop/so_long/so_long)
+==3678995==    by 0x403C83: main (so_long.c:28)
+==3678995==  Block was alloc'd at
+==3678995==    at 0x484DA83: calloc (in /usr/libexec/valgrind/vgpreload_memcheck-amd64-linux.so)
+==3678995==    by 0x48B5B31: XOpenDisplay (in /usr/lib/x86_64-linux-gnu/libX11.so.6.4.0)
+==3678995==    by 0x403EF7: mlx_init (in /home/aerenler/Desktop/so_long/so_long)
+==3678995==    by 0x403042: init_game (game_utils.c:28)
+==3678995==    by 0x403C5F: main (so_long.c:24)
+==3678995== 
+==3678995== Invalid read of size 8
+==3678995==    at 0x48C8708: _XFreeEventCookies (in /usr/lib/x86_64-linux-gnu/libX11.so.6.4.0)
+==3678995==    by 0x48B4ED6: XNextEvent (in /usr/lib/x86_64-linux-gnu/libX11.so.6.4.0)
+==3678995==    by 0x404242: mlx_loop (in /home/aerenler/Desktop/so_long/so_long)
+==3678995==    by 0x403C83: main (so_long.c:28)
+==3678995==  Address 0x4c59f20 is 4,672 bytes inside a block of size 4,704 free'd
+==3678995==    at 0x484B27F: free (in /usr/libexec/valgrind/vgpreload_memcheck-amd64-linux.so)
+==3678995==    by 0x48A78C0: XCloseDisplay (in /usr/lib/x86_64-linux-gnu/libX11.so.6.4.0)
+==3678995==    by 0x402F6A: cleanup (game_render.c:74)
+==3678995==    by 0x404321: mlx_loop (in /home/aerenler/Desktop/so_long/so_long)
+==3678995==    by 0x403C83: main (so_long.c:28)
+==3678995==  Block was alloc'd at
+==3678995==    at 0x484DA83: calloc (in /usr/libexec/valgrind/vgpreload_memcheck-amd64-linux.so)
+==3678995==    by 0x48B5B31: XOpenDisplay (in /usr/lib/x86_64-linux-gnu/libX11.so.6.4.0)
+==3678995==    by 0x403EF7: mlx_init (in /home/aerenler/Desktop/so_long/so_long)
+==3678995==    by 0x403042: init_game (game_utils.c:28)
+==3678995==    by 0x403C5F: main (so_long.c:24)
+==3678995== 
+==3678995== Invalid read of size 8
+==3678995==    at 0x48B4ED7: XNextEvent (in /usr/lib/x86_64-linux-gnu/libX11.so.6.4.0)
+==3678995==    by 0x404242: mlx_loop (in /home/aerenler/Desktop/so_long/so_long)
+==3678995==    by 0x403C83: main (so_long.c:28)
+==3678995==  Address 0x4c58d58 is 120 bytes inside a block of size 4,704 free'd
+==3678995==    at 0x484B27F: free (in /usr/libexec/valgrind/vgpreload_memcheck-amd64-linux.so)
+==3678995==    by 0x48A78C0: XCloseDisplay (in /usr/lib/x86_64-linux-gnu/libX11.so.6.4.0)
+==3678995==    by 0x402F6A: cleanup (game_render.c:74)
+==3678995==    by 0x404321: mlx_loop (in /home/aerenler/Desktop/so_long/so_long)
+==3678995==    by 0x403C83: main (so_long.c:28)
+==3678995==  Block was alloc'd at
+==3678995==    at 0x484DA83: calloc (in /usr/libexec/valgrind/vgpreload_memcheck-amd64-linux.so)
+==3678995==    by 0x48B5B31: XOpenDisplay (in /usr/lib/x86_64-linux-gnu/libX11.so.6.4.0)
+==3678995==    by 0x403EF7: mlx_init (in /home/aerenler/Desktop/so_long/so_long)
+==3678995==    by 0x403042: init_game (game_utils.c:28)
+==3678995==    by 0x403C5F: main (so_long.c:24)
+==3678995== 
+==3678995== Invalid read of size 8
+==3678995==    at 0x48CBE44: _XReadEvents (in /usr/lib/x86_64-linux-gnu/libX11.so.6.4.0)
+==3678995==    by 0x48B4FA7: XNextEvent (in /usr/lib/x86_64-linux-gnu/libX11.so.6.4.0)
+==3678995==    by 0x404242: mlx_loop (in /home/aerenler/Desktop/so_long/so_long)
+==3678995==    by 0x403C83: main (so_long.c:28)
+==3678995==  Address 0x4c58dd8 is 248 bytes inside a block of size 4,704 free'd
+==3678995==    at 0x484B27F: free (in /usr/libexec/valgrind/vgpreload_memcheck-amd64-linux.so)
+==3678995==    by 0x48A78C0: XCloseDisplay (in /usr/lib/x86_64-linux-gnu/libX11.so.6.4.0)
+==3678995==    by 0x402F6A: cleanup (game_render.c:74)
+==3678995==    by 0x404321: mlx_loop (in /home/aerenler/Desktop/so_long/so_long)
+==3678995==    by 0x403C83: main (so_long.c:28)
+==3678995==  Block was alloc'd at
+==3678995==    at 0x484DA83: calloc (in /usr/libexec/valgrind/vgpreload_memcheck-amd64-linux.so)
+==3678995==    by 0x48B5B31: XOpenDisplay (in /usr/lib/x86_64-linux-gnu/libX11.so.6.4.0)
+==3678995==    by 0x403EF7: mlx_init (in /home/aerenler/Desktop/so_long/so_long)
+==3678995==    by 0x403042: init_game (game_utils.c:28)
+==3678995==    by 0x403C5F: main (so_long.c:24)
+==3678995== 
+==3678995== Invalid read of size 8
+==3678995==    at 0x48C7586: _XSend (in /usr/lib/x86_64-linux-gnu/libX11.so.6.4.0)
+==3678995==    by 0x48CBE5F: _XReadEvents (in /usr/lib/x86_64-linux-gnu/libX11.so.6.4.0)
+==3678995==    by 0x48B4FA7: XNextEvent (in /usr/lib/x86_64-linux-gnu/libX11.so.6.4.0)
+==3678995==    by 0x404242: mlx_loop (in /home/aerenler/Desktop/so_long/so_long)
+==3678995==    by 0x403C83: main (so_long.c:28)
+==3678995==  Address 0x4c59710 is 2,608 bytes inside a block of size 4,704 free'd
+==3678995==    at 0x484B27F: free (in /usr/libexec/valgrind/vgpreload_memcheck-amd64-linux.so)
+==3678995==    by 0x48A78C0: XCloseDisplay (in /usr/lib/x86_64-linux-gnu/libX11.so.6.4.0)
+==3678995==    by 0x402F6A: cleanup (game_render.c:74)
+==3678995==    by 0x404321: mlx_loop (in /home/aerenler/Desktop/so_long/so_long)
+==3678995==    by 0x403C83: main (so_long.c:28)
+==3678995==  Block was alloc'd at
+==3678995==    at 0x484DA83: calloc (in /usr/libexec/valgrind/vgpreload_memcheck-amd64-linux.so)
+==3678995==    by 0x48B5B31: XOpenDisplay (in /usr/lib/x86_64-linux-gnu/libX11.so.6.4.0)
+==3678995==    by 0x403EF7: mlx_init (in /home/aerenler/Desktop/so_long/so_long)
+==3678995==    by 0x403042: init_game (game_utils.c:28)
+==3678995==    by 0x403C5F: main (so_long.c:24)
+==3678995== 
+==3678995== Invalid read of size 8
+==3678995==    at 0x48C758D: _XSend (in /usr/lib/x86_64-linux-gnu/libX11.so.6.4.0)
+==3678995==    by 0x48CBE5F: _XReadEvents (in /usr/lib/x86_64-linux-gnu/libX11.so.6.4.0)
+==3678995==    by 0x48B4FA7: XNextEvent (in /usr/lib/x86_64-linux-gnu/libX11.so.6.4.0)
+==3678995==    by 0x404242: mlx_loop (in /home/aerenler/Desktop/so_long/so_long)
+==3678995==    by 0x403C83: main (so_long.c:28)
+==3678995==  Address 0x4c58dd8 is 248 bytes inside a block of size 4,704 free'd
+==3678995==    at 0x484B27F: free (in /usr/libexec/valgrind/vgpreload_memcheck-amd64-linux.so)
+==3678995==    by 0x48A78C0: XCloseDisplay (in /usr/lib/x86_64-linux-gnu/libX11.so.6.4.0)
+==3678995==    by 0x402F6A: cleanup (game_render.c:74)
+==3678995==    by 0x404321: mlx_loop (in /home/aerenler/Desktop/so_long/so_long)
+==3678995==    by 0x403C83: main (so_long.c:28)
+==3678995==  Block was alloc'd at
+==3678995==    at 0x484DA83: calloc (in /usr/libexec/valgrind/vgpreload_memcheck-amd64-linux.so)
+==3678995==    by 0x48B5B31: XOpenDisplay (in /usr/lib/x86_64-linux-gnu/libX11.so.6.4.0)
+==3678995==    by 0x403EF7: mlx_init (in /home/aerenler/Desktop/so_long/so_long)
+==3678995==    by 0x403042: init_game (game_utils.c:28)
+==3678995==    by 0x403C5F: main (so_long.c:24)
+==3678995== 
+==3678995== Invalid read of size 8
+==3678995==    at 0x48C7597: _XSend (in /usr/lib/x86_64-linux-gnu/libX11.so.6.4.0)
+==3678995==    by 0x48CBE5F: _XReadEvents (in /usr/lib/x86_64-linux-gnu/libX11.so.6.4.0)
+==3678995==    by 0x48B4FA7: XNextEvent (in /usr/lib/x86_64-linux-gnu/libX11.so.6.4.0)
+==3678995==    by 0x404242: mlx_loop (in /home/aerenler/Desktop/so_long/so_long)
+==3678995==    by 0x403C83: main (so_long.c:28)
+==3678995==  Address 0x0 is not stack'd, malloc'd or (recently) free'd
+==3678995== 
+==3678995== 
+==3678995== Process terminating with default action of signal 11 (SIGSEGV)
+==3678995==  Access not within mapped region at address 0x0
+==3678995==    at 0x48C7597: _XSend (in /usr/lib/x86_64-linux-gnu/libX11.so.6.4.0)
+==3678995==    by 0x48CBE5F: _XReadEvents (in /usr/lib/x86_64-linux-gnu/libX11.so.6.4.0)
+==3678995==    by 0x48B4FA7: XNextEvent (in /usr/lib/x86_64-linux-gnu/libX11.so.6.4.0)
+==3678995==    by 0x404242: mlx_loop (in /home/aerenler/Desktop/so_long/so_long)
+==3678995==    by 0x403C83: main (so_long.c:28)
+==3678995==  If you believe this happened as a result of a stack
+==3678995==  overflow in your program's main thread (unlikely but
+==3678995==  possible), you can try to increase the size of the
+==3678995==  main thread stack using the --main-stacksize= flag.
+==3678995==  The main thread stack size used in this run was 8388608.
+==3678995== 
+==3678995== HEAP SUMMARY:
+==3678995==     in use at exit: 0 bytes in 0 blocks
+==3678995==   total heap usage: 132,287 allocs, 132,287 frees, 3,695,184 bytes allocated
+==3678995== 
+==3678995== All heap blocks were freed -- no leaks are possible
+==3678995== 
+==3678995== For lists of detected and suppressed errors, rerun with: -s
+==3678995== ERROR SUMMARY: 11 errors from 11 contexts (suppressed: 1 from 1)
+zsh: segmentation fault (core dumped)  valgrind --leak-check=full ./so_long maps/big.ber11111
+1CPE1
+11111
