@@ -74,6 +74,14 @@ int	read_map_line(int fd, char **map_str)
 	line = get_next_line(fd);
 	if (!line)
 		return (0);
+	if (ft_strlen(line) == 1 && line[0] == '\n')
+	{
+		free(line);
+		if (*map_str)
+			free(*map_str);
+		write(2, "Error: Empty line in map\n", 24);
+		return (0);
+	}
 	if (!*map_str)
 		*map_str = ft_strdup("");
 	temp = *map_str;
