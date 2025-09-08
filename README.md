@@ -1,6 +1,6 @@
-# 42 Istanbul Main Cursus – Ali Berke ⭐
+# 42 Istanbul Main-Cursus – Ali Berke ⭐
 
-Welcome! This repository contains my **42 Istanbul Main Cursus** projects.  
+Welcome! This repository contains my **42 Istanbul Main-Cursus** projects.  
 Projects are updated as I progress through the curriculum. All completed projects are **here**.
 
 ---
@@ -39,5 +39,4 @@ Projects are updated as I progress through the curriculum. All completed project
 ---
 
 ### 🔗 Useful Links
-- [42 Istanbul](https://42istanbul.com/)
-- [Main Cursus Overview](https://github.com/42School/cursus)
+- [42 Istanbul](https://42istanbul.com.tr)
