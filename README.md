@@ -17,7 +17,7 @@ Projects are updated as I progress through the curriculum. All completed project
 | `philosophers`        | ✅ Done |
 | `push_swap`           | ✅ Done |
 | `so_long`             | ✅ Done |
-| `cpp modules 00-01`   | ✅ Done |
+| `cpp modules 00-02`   | ✅ Done |
 
 ---
 
